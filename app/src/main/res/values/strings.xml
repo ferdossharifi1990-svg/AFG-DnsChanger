@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">دستیار DNS</string>
+    <string name="status_stopped">وضعیت: خاموش</string>
+    <string name="status_running">وضعیت: فعال</string>
+    <string name="btn_start">اتصال</string>
+    <string name="btn_stop">قطع اتصال</string>
+    <string name="label_primary">سرور اصلی</string>
+</resources>
