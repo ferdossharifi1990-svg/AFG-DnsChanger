@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="28dp"
+    android:background="#12161D"
+    android:gravity="top">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textColor="#E7EAF0"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="24dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_primary"
+        android:textColor="#8A94A6"
+        android:textSize="13sp"
+        android:layout_marginBottom="6dp"/>
+
+    <Spinner
+        android:id="@+id/providerSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#1A212B"
+        android:padding="12dp"
+        android:layout_marginBottom="24dp"/>
+
+    <TextView
+        android:id="@+id/statusText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/status_stopped"
+        android:textColor="#8A94A6"
+        android:textSize="14sp"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/toggleButton"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="@string/btn_start"
+        android:textColor="#12161D"
+        android:backgroundTint="#E8A33D"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="با فعال کردن، یک اتصال محلی VPN ساخته می‌شود که فقط ترافیک DNS را از سرور انتخابی عبور می‌دهد؛ بقیه‌ی اینترنت شما دست‌نخورده باقی می‌ماند."
+        android:textColor="#8A94A6"
+        android:textSize="12sp"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>
