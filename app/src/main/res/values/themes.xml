@@ -1,0 +1,8 @@
+<resources>
+    <style name="Theme.DnsChanger" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#E8A33D</item>
+        <item name="colorPrimaryDark">#12161D</item>
+        <item name="colorAccent">#4FA8C9</item>
+        <item name="android:windowBackground">#12161D</item>
+    </style>
+</resources>
